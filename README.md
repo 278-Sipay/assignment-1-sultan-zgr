@@ -20,12 +20,16 @@ FluentValidation kütüphanesini kullanabilmek için öncelikle ya Nuget’ten y
  “AbstractValidator” abstract classından türeyen bir sınıf oluşturmamız ve aşağıdaki gibi üzerinde işlem yapmamız yeterlidir. 
  
 ```c#
- class CustomerValidator : AbstractValidator<Customer>
-{
-    public CustomerValidator()
+   public class PersonValidator : AbstractValidator<Person>
     {
-        RuleFor(c => c.Name).NotEmpty().WithMessage("Lütfen adınızı boş geçmeyiniz.");
-        RuleFor(c => c.Surname).NotEmpty().When(c => c.Id != 1).WithMessage("Lütfen soyadı boş geçmeyiniz.");
-        RuleFor(c => c.BornDate).Must(d => d.Year <= 2000).WithMessage("Lütfen doğum tarihi 2000'den büyük olanları girmeyiniz.");
-    }
+        public PersonValidator()
+        {
+            RuleFor(p => p.Name)
+           .NotEmpty().WithMessage("Staff person name is required.")
+           .Length(5, 100).WithMessage("Staff person name must be between 5 and 100 characters.");
+
+            RuleFor(p => p.Lastname)
+                .NotEmpty().WithMessage("Staff person lastname is required.")
+                .Length(5, 100).WithMessage("Staff person lastname must be between 5 and 100 characters.");
+}
 }
