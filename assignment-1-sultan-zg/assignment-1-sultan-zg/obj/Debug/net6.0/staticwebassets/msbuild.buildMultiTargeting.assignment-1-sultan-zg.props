@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\assignment-1-sultan-zg.props" />
+</Project>

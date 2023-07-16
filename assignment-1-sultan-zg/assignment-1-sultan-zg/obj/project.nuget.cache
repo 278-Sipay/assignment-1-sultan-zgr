@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1LhCGjJz306kJttQtvQQCMYSQVxPgpyuAvEzZAsVVhl77aJv4OkjGowh0jN1OZCdCMBiUkQaw9XOAzHzhdeCcg==",
+  "dgSpecHash": "0mEQAIZ3HmeNK4k7CPA+Z7RhQZ/mYqI+D8QEPtDO0c54ZYVOIzuaRkOUmdbmAb5FGIS5HEN3GweYgPeEChJB3Q==",
   "success": true,
   "projectFilePath": "D:\\278-Sipay\\assignment-1-sultan-zgr\\assignment-1-sultan-zg\\assignment-1-sultan-zg\\assignment-1-sultan-zg.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sulta\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
     "C:\\Users\\sulta\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\sulta\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\sulta\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
