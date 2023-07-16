@@ -31,5 +31,5 @@ FluentValidation kütüphanesini kullanabilmek için öncelikle ya Nuget’ten y
             RuleFor(p => p.Lastname)
                 .NotEmpty().WithMessage("Staff person lastname is required.")
                 .Length(5, 100).WithMessage("Staff person lastname must be between 5 and 100 characters.");
-}
+        }
 }
